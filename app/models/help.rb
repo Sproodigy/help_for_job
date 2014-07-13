@@ -1,9 +1,7 @@
-# encoding: utf-8
-
 class Help < Prawn::Document
   include ActionView::Helpers::NumberHelper
 
-  def to_pdf
+  def print_help
     font_families.update(
       "DejaVuSans" => {
         normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",

@@ -1,6 +1,7 @@
 HelpForJob::Application.routes.draw do
 
   get '/help' => 'help#help'
+  get '/rave' => 'help#rave'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
